@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<scanner>
+<files>
+  <workingdir>/Users/spuaratana/notMNIST/</workingdir>
+  <pythonmain>notMnistLstmbigram.py</pythonmain>
+  <outputfile>notMnistLstmbigramResult.txt</outputfile>
+  <logfilename>notMnistLstmbigram1Logfile</logfilename>
+</files>
+<parameters>
+   <parameter name="learning_rate_initial">
+     <value>30.0</value>
+     <value>10.0</value>
+     <value>3.0</value>
+   </parameter>
+   <parameter name="multiplier">
+     <value>0.30</value>
+     <value>0.10</value>
+     <value>0.05</value>
+     <value>0.01</value>
+   </parameter>
+   <parameter name="decay_steps">
+     <value>20000</value>
+     <value>5000</value>
+     <value>1000</value>
+   </parameter>
+   <parameter name="num_steps">
+     <value>30001</value>
+   </parameter>
+</parameters>
+</scanner>

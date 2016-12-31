@@ -1,0 +1,1 @@
+./scanner.py --checkpointindex 0 --sort --evalmodule "evalnotMnistLstmbigram" --numsort 100 --formatfile "ckpt" --varfile "lstmbigram.xml"
